@@ -22,7 +22,7 @@ PHP 7.4 and later.
 
 ### Composer
 
-To install the bindings via [Composer](https://getcomposer.org/), add the following to `composer.json`:
+OnlyAuth SDK is available via Packagist, onlyauth/sdk. Install it via composter:
 
 ```bash
 composer require onlyauth/sdk
