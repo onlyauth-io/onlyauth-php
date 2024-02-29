@@ -1,0 +1,45 @@
+{
+    "description": "OnlyAuth 2FA API PHP Library",
+    "keywords": [
+        "2fa",
+        "2fa api",
+        "mfa",
+        "two factor auth",
+        "2fa api",
+        "2fa sdk",
+        "api"
+    ],
+    "homepage": "https://www.onlyauth.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OnlyAuth Technologies SL",
+            "homepage": "https://www.onlyauth.io"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/onlyauth-io/onlyauth-php.git"
+        }
+    ],
+    "require": {
+        "onlyauth-io/onlyauth-php": "*@main",
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "OpenAPI\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "OpenAPI\\Client\\Test\\" : "test/" }
+    }
+}
