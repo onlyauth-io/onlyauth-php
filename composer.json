@@ -1,11 +1,11 @@
 {
+    "name": "onlyauth/sdk",
     "description": "OnlyAuth 2FA API PHP Library",
     "keywords": [
         "2fa",
         "2fa api",
         "mfa",
         "two factor auth",
-        "2fa api",
         "2fa sdk",
         "api"
     ],
@@ -24,7 +24,6 @@
         }
     ],
     "require": {
-        "onlyauth-io/onlyauth-php": "*@main",
         "php": "^7.4 || ^8.0",
         "ext-curl": "*",
         "ext-json": "*",
